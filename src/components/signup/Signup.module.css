@@ -1,0 +1,31 @@
+input[type='text'] {
+  height: 4rem;
+  width: 19rem;
+  padding: 0.6rem;
+  border-radius: 1rem;
+  color: black;
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 1rem 0;
+  outline: none;
+}
+label {
+  height: 4rem;
+  width: 19rem;
+  overflow-x: auto;
+  overflow-y: hidden;
+  background-color: rgba(161, 156, 156, 0.575);
+  color: rgb(23, 66, 206);
+  padding: 1rem;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+@media screen and (min-width: 600px) {
+  input[type='text'] {
+    width: 40vw;
+  }
+  label {
+    width: 40vw;
+  }
+}

@@ -1,9 +1,12 @@
 import './App.css'
+import Signup from './components/signup/Signup'
+import Footer from './components/footer/Footer'
 
-function App() {
+const App = () => {
   return (
-    <div className='App'>
-      <h1>Ola, Welcome !!</h1>
+    <div className='container'>
+      <Signup />
+      <Footer />
     </div>
   )
 }
