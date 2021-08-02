@@ -1,0 +1,5 @@
+{
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.allowMnemonics": true,
+}
