@@ -1,0 +1,121 @@
+form {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+  width: 30rem;
+}
+form > div {
+  margin: 1rem;
+}
+input[type='number'] {
+  border: 2px solid #cdd4d2;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  width: 5rem;
+  height: 5rem;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #304fac;
+  text-align: center;
+}
+label {
+  color: #304fac;
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+input[type='number']:focus-visible {
+  outline: none;
+  border: 2px solid;
+}
+input[type='number']::placeholder {
+  color: #304fac;
+}
+span {
+  font-size: 4rem;
+  color: #304fac;
+}
+.result {
+  background-color: rgb(200, 201, 202);
+  color: #304fac;
+  font-size: 1.7rem;
+  font-weight: 600;
+  width: 20rem;
+  height: 3.4rem;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  text-align: center;
+  margin: 1rem auto;
+}
+
+@media screen and (max-width: 320px) {
+  form {
+    width: auto;
+  }
+  form > div {
+    margin: 0;
+  }
+  input[type='number'] {
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1rem;
+  }
+  label {
+    font-size: 1rem;
+    margin: 0;
+  }
+  span {
+    position: relative;
+    top: -5px;
+    font-size: 1.6rem;
+    margin: 0.3rem;
+    color: #304fac;
+  }
+  .result {
+    font-size: 1.2rem;
+    width: 10rem;
+    height: 2.2rem;
+    padding: 0.2rem;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 500px) {
+  form {
+    width: auto;
+  }
+  form > div {
+    margin: 0;
+  }
+  input[type='number'] {
+    width: 3.5rem;
+    height: 3.5rem;
+    font-size: 1.5rem;
+  }
+  label {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  span {
+    position: relative;
+    top: -12px;
+    font-size: 2.5rem;
+    margin: 0.5rem;
+    color: #304fac;
+  }
+  .result {
+    font-size: 1.5rem;
+    width: 15rem;
+    overflow-x: auto;
+  }
+}
