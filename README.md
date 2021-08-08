@@ -22,4 +22,7 @@ Link to [Git Flow](https://www.atlassian.com/git/tutorials/comparing-workflows/g
 ![Desktop View](https://user-images.githubusercontent.com/26891223/127932178-791da2ff-025f-4489-9fe8-f1a1a5d0bfa6.png)
 </details>
 
-> Deployment link in the right section, below the description
+> Deployment links
+
+- Milestone 1: https://hercules-milestone-1.netlify.app/
+- Milestone 2: https://hercules-milestone-2.netlify.app/
