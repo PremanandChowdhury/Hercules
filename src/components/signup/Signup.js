@@ -22,7 +22,7 @@ const Signup = () => {
   return (
     <>
       <input type='text' name='email' id='email' onChange={updateInput} />
-      <label className='input-label'>{!email ? msg : email}</label>
+      <label data-testid='label'>{!email ? msg : email}</label>
     </>
   )
 }
