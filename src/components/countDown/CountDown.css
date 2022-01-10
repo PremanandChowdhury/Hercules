@@ -59,6 +59,11 @@ span {
   text-align: center;
   margin: 1rem auto;
 }
+.btn {
+  padding: 0.4rem 1rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+}
 
 @media screen and (max-width: 320px) {
   form {
